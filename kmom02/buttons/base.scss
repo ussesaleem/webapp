@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+$font-body: 'Merriweather', serif;
+
+p {
+    font-family: $font-body;
+}
+
+$blue: #0074d9;
+
+.blue-button {
+    background-color: $blue;
+    background-image: linear-gradient($blue, darken($blue, 10%));
+    border-color: darken($blue, 20%);
+}
